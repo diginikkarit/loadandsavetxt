@@ -24,7 +24,7 @@ namespace LoadAndSaveTxt
             guitar1.Type = Console.ReadLine();
             Console.WriteLine("Enter Price");
             guitar1.Price = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter if its electric or not");
+            Console.WriteLine("Enter if its used or not");
             guitar1.Electric = bool.Parse(Console.ReadLine());
             guitars.Add(guitar1);
             return guitar1;
@@ -44,14 +44,6 @@ namespace LoadAndSaveTxt
             
             
         }
-        public string GuitarToString(Guitar huitar)
-        {
-            return $"{huitar.Brand},{huitar.Type},{huitar.Price},{huitar.Electric}";
-            
-        }
-        public void WriteLineToFile(List<string> lines)
-        {
-            
-        }
+        
     }
 }

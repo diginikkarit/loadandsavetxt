@@ -10,7 +10,7 @@ namespace LoadAndSaveTxt
             //MainMenu mainMenu = new MainMenu();
             //mainMenu.OpenMenu();
             DataHandler dh = new DataHandler();
-            dh.GuitarToString();
+            
 
             
 
