@@ -10,7 +10,8 @@ namespace LoadAndSaveTxt
             //MainMenu mainMenu = new MainMenu();
             //mainMenu.OpenMenu();
             DataHandler dh = new DataHandler();
-            
+            FileHandler fh = new FileHandler();
+            fh.SaveToFile();
 
             
 
